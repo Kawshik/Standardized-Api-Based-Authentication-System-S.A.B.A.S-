@@ -8,7 +8,7 @@ $PASSWORD_NOT_MATCHED_ERROR_CODE = 109;
 $DUPLICATE_USERNAME_ERROR_CODE = 110;
 $INCORRECT_PASSWORD_ERROR_CODE = 111;
 $USER_NOT_FOUND_ERROR_CODE = 112;
-$MYSQL_CONN_ERROR_ERROR_CODE = 700;
+$MYSQL_CONN_ERROR_CODE = 700;
 
 //Error Message
 $EMPTY_FIELDS_ERROR_MSG = "Fill in the Empty Fields";
@@ -18,7 +18,7 @@ $PASSWORD_NOT_MATCHED_ERROR_MSG = "Both of your passwords are not matching";
 $DUPLICATE_USERNAME_ERROR_MSG = "Username already exists";
 $INCORRECT_PASSWORD_ERROR_MSG = "Incorrect password";
 $USER_NOT_FOUND_ERROR_MSG = "User not found, Create a new one";
-$MYSQL_CONN_ERROR_ERROR_MSG = "Mysql database connection error";
+$MYSQL_CONN_ERROR_MSG = "Mysql database connection error";
 
 
 function errorHandler($errorCode) {
@@ -52,3 +52,5 @@ function errorHandler($errorCode) {
 			break;
 	}
 }
+
+?>
