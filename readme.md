@@ -1,1 +1,1 @@
-#S.A.B.A.S (Standard Api Based Authentication System)
+#S.A.B.A.S (Standardized Api Based Authentication System)
